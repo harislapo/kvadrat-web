@@ -27,6 +27,11 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+      <div className="app__navbar-language">
+        <a href="#">
+          <img src={images.ba_flag} />
+        </a>
+      </div>
       <div className="app__navbar-smscreen">
         <GiHamburgerMenu
           color="#fff"
