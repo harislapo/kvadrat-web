@@ -21,9 +21,7 @@ const AboutUs = () => (
         </p>
       </div>
 
-      <div className="app__aboutus-content_building flex__center">
-        <img src={images.about_img1} alt="Image of an skyscraper." />
-      </div>
+      <div className="app__aboutus-content_divider"></div>
 
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">History</h1>
