@@ -8,8 +8,8 @@ const App = () => (
     <Navbar />
     <Header />
     <AboutUs />
-    <Awards />
     <Intro />
+    <Awards />
     <Gallery />
     <Footer />
   </div>

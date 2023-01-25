@@ -7,11 +7,10 @@ const Header = () => {
   return (
     <div id="home" className="app__header app__wrapper section__padding">
       <div className="app__wrapper_info">
-        <SubHeading title="Lorem ipsum, dolor sit amet." />
-        <h1 className="app__header-h1">Kvadrat Studio</h1>
+        <SubHeading title="Where architecture comes to life." />
+        <h1 className="app__header-h1">Kvadrat Atelje</h1>
         <p className="p__opensans" style={{ margin: '2rem 0' }}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis
-          officia iure amet libero laborum.
+          Architectural studio - Sarajevo, Bosnia and Herzegovina based.
         </p>
       </div>
       <div className="app__wrapper_img">

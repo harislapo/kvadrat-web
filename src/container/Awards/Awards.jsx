@@ -20,7 +20,7 @@ const dummyData = [
 
 const AwardCard = ({ award }) => {
   return (
-    <div className="app__awards-card">
+    <div className="app__awards-card" id="acclaims">
       <div className="app__awards-card_content">
         <p className="p__cormorant" style={{ color: '#DCCa87' }}>
           {award.title}
@@ -35,7 +35,7 @@ const Awards = () => (
   <div id="awards" className="app__wrapper section__padding">
     <div className="app__wrapper_info">
       <SubHeading title="Awards & Recognitions" />
-      <h1 className="headtext__cormorant">Our Acclaims</h1>
+      <h1 className="headtext__cormorant">Acclaims</h1>
       <div className="app__awards">
         {dummyData.map((award) => (
           <AwardCard award={award} key={award.title} />

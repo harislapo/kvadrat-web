@@ -1,6 +1,6 @@
 .section__padding {
   padding: 3rem 6rem;
-  border: 1px dotted var(--color-blacker);
+  border-top: 1px solid var(--color-blacker);
 }
 
 .footer__padding {
@@ -48,9 +48,8 @@
   color: var(--color-white);
   font-weight: 700;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
-  font-feature-settings: 'tnum' on, 'lnum' on;
-  line-height: 29.9px;
+  /* text-transform: capitalize; */
+  line-height: 30px;
   font-size: 23px;
 }
 
@@ -59,7 +58,7 @@
   color: var(--color-white);
   font-weight: 400;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   line-height: 28px;
   font-size: 16px;
 }
@@ -120,7 +119,7 @@
   }
 
   .p__opensans {
-    font-size: 14px;
+    font-size: 17px;
   }
 }
 

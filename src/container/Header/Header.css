@@ -19,5 +19,6 @@
   .app__header-h1 {
     font-size: 62px;
     text-align: center;
+    line-height: 80px;
   }
 }

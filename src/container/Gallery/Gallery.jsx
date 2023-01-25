@@ -15,9 +15,9 @@ const Gallery = () => {
     const { current } = scrollRef;
 
     if (direction === 'left') {
-      current.scrollLeft -= 300;
+      current.scrollLeft -= 450;
     } else {
-      current.scrollLeft += 300;
+      current.scrollLeft += 450;
     }
   };
 
@@ -32,10 +32,9 @@ const Gallery = () => {
     <div className="app__gallery flex__center" id="projects">
       <div className="app__gallery-content">
         <SubHeading title="Projects" />
-        <h1 className="headtext__cormorant">Photo Gallery</h1>
+        <h1 className="headtext__cormorant">Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAA', marginTop: '2rem' }}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-          distinctio sint?
+          We are always working on something new. Have a look into some of our most recent projects.
         </p>
       </div>
       <div className="app__gallery-images">

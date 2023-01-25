@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { GiHamburgerMenu, GiPencilRuler } from 'react-icons/gi';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { MdClose } from 'react-icons/md';
 
 import images from '../../constants/images';
 import './Navbar.css';
@@ -17,7 +18,7 @@ const Navbar = () => {
           <a href="#projects">Projects</a>
         </li>
         <li className="p__opensans">
-          <a href="#services">Services</a>
+          <a href="#acclaims">Acclaims</a>
         </li>
         <li className="p__opensans">
           <a href="#about">About</a>
@@ -36,23 +37,31 @@ const Navbar = () => {
         />
         {toggleMenu && (
           <div className="app__navbar-smscreen_overlay flex__center slide-bottom">
-            <GiPencilRuler
+            <MdClose
               fontSize={28}
               className="overlay__close"
               onClick={() => setToggleMenu(false)}
             />
             <ul className="app__navbar-smscreen_links">
               <li className="p__opensans">
-                <a href="#projects">Projects</a>
+                <a href="#projects" onClick={() => setToggleMenu(false)}>
+                  Projects
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#services">Services</a>
+                <a href="#acclaims" onClick={() => setToggleMenu(false)}>
+                  Acclaims
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#about">About</a>
+                <a href="#about" onClick={() => setToggleMenu(false)}>
+                  About
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#contact">Contact</a>
+                <a href="#contact" onClick={() => setToggleMenu(false)}>
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
