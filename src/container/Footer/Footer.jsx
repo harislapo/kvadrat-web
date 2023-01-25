@@ -8,7 +8,7 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact us</h1>
-        <p className="p__opensans">Stupska br: 19/A1</p>
+        <p className="p__opensans">Stupska 19/A1</p>
         <p className="p__opensans">Sarajevo, Bosnia and Herzegovina</p>
         <p className="p__opensans">+387 33 841 641</p>
       </div>
@@ -37,7 +37,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="footer__copyright">
-      <p className="p__opensans text-sm">&copy; Kvadrat 2023 &trade; </p>
+      <p className="p__opensans text-sm">&copy; Kvadrat Atelje &trade; 2023 </p>
     </div>
   </div>
 );

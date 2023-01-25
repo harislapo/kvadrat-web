@@ -10,7 +10,7 @@ const Header = () => {
         <SubHeading title="Where architecture comes to life." />
         <h1 className="app__header-h1">Kvadrat Atelje</h1>
         <p className="p__opensans" style={{ margin: '2rem 0' }}>
-          Architectural studio - Sarajevo, Bosnia and Herzegovina based.
+          Architectural studio &#8212; Sarajevo, Bosnia and Herzegovina based.
         </p>
       </div>
       <div className="app__wrapper_img">

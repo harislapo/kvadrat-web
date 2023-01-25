@@ -31,8 +31,8 @@ const Gallery = () => {
   return (
     <div className="app__gallery flex__center" id="projects">
       <div className="app__gallery-content">
-        <SubHeading title="Projects" />
-        <h1 className="headtext__cormorant">Gallery</h1>
+        <SubHeading title="Gallery" />
+        <h1 className="headtext__cormorant">Projects</h1>
         <p className="p__opensans" style={{ color: '#AAA', marginTop: '2rem' }}>
           We are always working on something new. Have a look into some of our most recent projects.
         </p>
