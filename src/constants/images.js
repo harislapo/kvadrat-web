@@ -6,8 +6,8 @@ import gallery01 from '../assets/gallery01.jpg';
 import gallery02 from '../assets/gallery02.jpg';
 import gallery03 from '../assets/gallery03.jpg';
 import gallery04 from '../assets/gallery04.jpg';
-import ba_flag from '../assets/ba_flag.jpg';
-import en_flag from '../assets/en_flag.jpg';
+import ba_flag from '../assets/ba_flag.svg';
+import en_flag from '../assets/en_flag.svg';
 
 export default {
   logo,

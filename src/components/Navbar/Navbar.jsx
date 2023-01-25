@@ -68,6 +68,11 @@ const Navbar = () => {
                   Contact
                 </a>
               </li>
+              <li className="app__navbar-smscreen_links-language">
+                <a href="#">
+                  <img src={images.ba_flag} />
+                </a>
+              </li>
             </ul>
           </div>
         )}

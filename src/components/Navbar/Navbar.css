@@ -49,8 +49,12 @@
 }
 
 .app__navbar-language img {
-  width: 50px;
   height: 30px;
+}
+
+.app__navbar-language img:hover {
+  box-shadow: -5px -3px 10px rgba(255, 255, 255, 0.2),
+    15px 15px 15px rgba(0, 0, 0, 0.1);
 }
 
 .app__navbar-smscreen {
@@ -83,12 +87,11 @@
 }
 
 .app__navbar-smscreen_links li {
-  margin: 3rem;
+  margin: 2rem;
   cursor: pointer;
   color: var(--color-white);
   font-size: 1.4rem;
   text-align: center;
-  transition: 0.5 ease;
 }
 
 .app__navbar-smscreen_links li:hover {
@@ -96,8 +99,16 @@
   border-bottom: 1px solid var(--color-golden);
 }
 
+.app__navbar-smscreen_links li:nth-child(5) {
+  border-bottom: 0;
+}
+
+.app__navbar-smscreen_links-language img {
+  height: 30px;
+}
+
 /* XL Screens */
-@media screen and (max-width: 2000px) {
+@media screen and (min-width: 2000px) {
   .app__navbar-logo img {
     width: 10rem;
   }
@@ -111,6 +122,10 @@
 
   .app__navbar-smscreen {
     display: flex;
+  }
+
+  .app__navbar-language {
+    display: none;
   }
 }
 
