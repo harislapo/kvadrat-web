@@ -18,7 +18,7 @@ const Navbar = () => {
           <a href="#projects">Projects</a>
         </li>
         <li className="p__opensans">
-          <a href="#acclaims">Acclaims</a>
+          <a href="#founder">Founder</a>
         </li>
         <li className="p__opensans">
           <a href="#about">About</a>
@@ -54,8 +54,8 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="p__opensans">
-                <a href="#acclaims" onClick={() => setToggleMenu(false)}>
-                  Acclaims
+                <a href="#founder" onClick={() => setToggleMenu(false)}>
+                  Founder
                 </a>
               </li>
               <li className="p__opensans">
