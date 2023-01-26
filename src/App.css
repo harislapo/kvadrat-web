@@ -39,8 +39,17 @@
   margin-left: 2rem;
 }
 
+.app__wrapper_img-reverse {
+  justify-content: flex-start;
+  margin-right: 2rem;
+}
+
 .app__wrapper_img img {
   width: 80%;
+}
+
+.white-border {
+  border: 3px solid var(--color-white);
 }
 
 .p__cormorant {
@@ -100,6 +109,10 @@
 
   .app__wrapper_img img {
     width: 100%;
+  }
+
+  .white-border-none {
+    border: none
   }
 }
 
