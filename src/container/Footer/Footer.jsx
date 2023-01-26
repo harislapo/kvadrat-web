@@ -1,10 +1,16 @@
 import React from 'react';
 import { FiFacebook, FiInstagram, FiLinkedin } from 'react-icons/fi';
+import { AiOutlineArrowUp } from 'react-icons/ai';
 import { images } from '../../constants';
 import './Footer.css';
 
 const Footer = () => (
   <div className="app__footer footer__padding" id="contact">
+    <div className="app__footer-back_button">
+      <a href="#navbar">
+        <AiOutlineArrowUp />
+      </a>
+    </div>
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact us</h1>
@@ -25,7 +31,10 @@ const Footer = () => (
           <a href="https://instagram.com" target="_blank">
             <FiInstagram />
           </a>
-          <a href="https://linkedin.com/in/adnan-omerovi%C4%87-340a6058" target="_blank">
+          <a
+            href="https://linkedin.com/in/adnan-omerovi%C4%87-340a6058"
+            target="_blank"
+          >
             <FiLinkedin />
           </a>
         </div>
