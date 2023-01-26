@@ -1,4 +1,4 @@
 import images from './images';
-import test_video from '../assets/test_video.mp4';
+import intro_video from '../assets/intro_video.mp4';
 
-export { images, test_video };
+export { images, intro_video };

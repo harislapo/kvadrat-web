@@ -43,7 +43,7 @@ const Awards = () => (
       </div>
     </div>
     <div className="app__wrapper_img">
-      <img src={images.awards_img} alt="Awards image" />
+      <img src={images.founder_img} alt="Awards image" />
     </div>
   </div>
 );
