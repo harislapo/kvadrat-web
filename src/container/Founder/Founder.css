@@ -1,0 +1,22 @@
+.app__wrapper {
+  background-color: var(--color-black);
+}
+
+.app__founder-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 3rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__wrapper_info {
+    margin-top: 2rem;
+  }
+
+  .app__wrapper_img img {
+    max-height: 40rem;
+    object-fit: contain;
+  }
+}
