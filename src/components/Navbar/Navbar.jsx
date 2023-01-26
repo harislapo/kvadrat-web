@@ -2,11 +2,20 @@ import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
 
-import images from '../../constants/images';
+import { images } from '../../constants';
 import './Navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [flag, setFlag] = useState('ba');
+
+  const toggleFlags = () => {
+    if (flag === 'ba') {
+      setFlag('en');
+    } else {
+      setFlag('ba');
+    }
+  };
 
   return (
     <nav className="app__navbar" id="navbar">
@@ -28,8 +37,8 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-language">
-        <a href="#">
-          <img src={images.ba_flag} />
+        <a href={flag === 'ba' ? '#ba' : '#en'} onClick={toggleFlags}>
+          <img src={flag === 'ba' ? images.ba_flag : images.en_flag} />
         </a>
       </div>
       <div className="app__navbar-smscreen">
@@ -69,8 +78,8 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="app__navbar-smscreen_links-language">
-                <a href="#">
-                  <img src={images.ba_flag} />
+                <a href={flag === 'ba' ? '#ba' : '#en'} onClick={toggleFlags}>
+                  <img src={flag === 'ba' ? images.ba_flag : images.en_flag} />
                 </a>
               </li>
             </ul>

@@ -5,16 +5,20 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div id="header" className="app__header app__wrapper section__padding">
+    <div
+      id="header"
+      className="app__header app__wrapper section__padding"
+      style={{ minHeight: '85vh' }}
+    >
       <div className="app__wrapper_info">
         <SubHeading title="Where architecture comes to life." />
-        <h1 className="app__header-h1">Kvadrat Atelje</h1>
+        <h1 className="app__header-h1">Kvadrat Atelier</h1>
         <p className="p__opensans" style={{ margin: '2rem 0' }}>
           Architectural studio &#8212; based in Sarajevo, Bosnia and
           Herzegovina.
         </p>
       </div>
-      <div className="app__wrapper_img ">
+      <div className="app__wrapper_img">
         <img
           src={images.header_img}
           alt="header image"

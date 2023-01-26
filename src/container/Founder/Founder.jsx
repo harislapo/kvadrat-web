@@ -36,13 +36,6 @@ const Founder = () => {
             voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Id doloribus pariatur voluptatem sed officiis! Quod repudiandae
             corrupti laudantium ab soluta dolorem necessitatibus repellendus,
-            facere deserunt neque ut in eum voluptate. Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Id doloribus pariatur voluptatem
-            sed officiis! Quod repudiandae corrupti laudantium ab soluta dolorem
-            necessitatibus repellendus, facere deserunt neque ut in eum
-            voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Id doloribus pariatur voluptatem sed officiis! Quod repudiandae
-            corrupti laudantium ab soluta dolorem necessitatibus repellendus,
             facere deserunt neque ut in eum voluptate.
           </p>
           <a
