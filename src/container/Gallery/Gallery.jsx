@@ -54,7 +54,7 @@ const Gallery = () => {
   ];
 
   return (
-    <div className="app__gallery flex__center" id="projects">
+    <div className="app__gallery flex__center disable_dblclick" id="projects">
       <div className="app__gallery-content">
         <SubHeading title="Gallery" />
         <h1 className="headtext__cormorant">Projects</h1>

@@ -81,6 +81,13 @@
   text-transform: capitalize;
 }
 
+.disable_dblclick {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 @media screen and (min-width: 2000px) {
   .p__cormorant {
     font-size: 37px;
