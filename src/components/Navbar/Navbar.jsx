@@ -15,13 +15,13 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
-          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
         </li>
         <li className="p__opensans">
           <a href="#founder">Founder</a>
         </li>
         <li className="p__opensans">
-          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
         </li>
         <li className="p__opensans">
           <a href="#contact">Contact</a>
@@ -49,8 +49,8 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smscreen_links">
               <li className="p__opensans">
-                <a href="#projects" onClick={() => setToggleMenu(false)}>
-                  Projects
+                <a href="#about" onClick={() => setToggleMenu(false)}>
+                  About
                 </a>
               </li>
               <li className="p__opensans">
@@ -59,8 +59,8 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="p__opensans">
-                <a href="#about" onClick={() => setToggleMenu(false)}>
-                  About
+                <a href="#projects" onClick={() => setToggleMenu(false)}>
+                  Projects
                 </a>
               </li>
               <li className="p__opensans">
