@@ -22,10 +22,35 @@ const Gallery = () => {
   };
 
   const galleryImages = [
-    images.gallery01,
-    images.gallery02,
-    images.gallery03,
-    images.gallery04,
+    images.gallery_001,
+    images.gallery_002,
+    images.gallery_003,
+    images.gallery_004,
+    images.gallery_005,
+    images.gallery_006,
+    images.gallery_007,
+    images.gallery_008,
+    images.gallery_009,
+    images.gallery_0010,
+    images.gallery_0011,
+    images.gallery_0012,
+    images.gallery_0013,
+    images.gallery_0014,
+    images.gallery_0015,
+    images.gallery_0016,
+    images.gallery_0017,
+    images.gallery_0018,
+    images.gallery_0019,
+    images.gallery_0020,
+    images.gallery_0021,
+    images.gallery_0022,
+    images.gallery_0023,
+    images.gallery_0024,
+    images.gallery_0025,
+    images.gallery_0026,
+    images.gallery_0027,
+    images.gallery_0028,
+    images.gallery_0029,
   ];
 
   return (
@@ -34,7 +59,8 @@ const Gallery = () => {
         <SubHeading title="Gallery" />
         <h1 className="headtext__cormorant">Projects</h1>
         <p className="p__opensans" style={{ color: '#AAA', marginTop: '2rem' }}>
-          We are always working on something new. Have a look into some of our most recent projects.
+          We are always working on something new. Have a look into some of our
+          most recent projects.
         </p>
       </div>
       <div className="app__gallery-images">

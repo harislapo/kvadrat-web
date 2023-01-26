@@ -80,7 +80,7 @@
 }
 
 .gallery__arrow-icon {
-  color: var(--color-golden);
+  color: var(--color-white);
   font-size: 2rem;
   cursor: pointer;
   background-color: var(--color-black);
@@ -88,7 +88,7 @@
 }
 
 .gallery__arrow-icon:hover {
-  color: var(--color-white);
+  color: var(--color-grey);
 }
 
 @media screen and (min-width: 2000px) {
