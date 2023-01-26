@@ -4,6 +4,7 @@ import {
   BsArrowLeftShort,
   BsArrowRightShort,
 } from 'react-icons/bs';
+import { FiExternalLink } from 'react-icons/fi';
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './Gallery.css';
@@ -62,6 +63,15 @@ const Gallery = () => {
           We are always working on something new. Have a look into some of our
           most recent projects.
         </p>
+        <span>
+          <a
+            href="https://kvadratatelje.ba/pdfs/Kvadrat_Reference.pdf"
+            target="_blank"
+            className="p__opensans"
+          >
+            Portfolio <FiExternalLink color="white" fontSize={16} />
+          </a>
+        </span>
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>

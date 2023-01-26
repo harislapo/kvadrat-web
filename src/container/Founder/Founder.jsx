@@ -1,6 +1,7 @@
 import React from 'react';
 import { images } from '../../constants';
 import { SubHeading } from '../../components';
+import { FiExternalLink } from 'react-icons/fi';
 import './Founder.css';
 
 const Founder = () => {
@@ -44,6 +45,13 @@ const Founder = () => {
             corrupti laudantium ab soluta dolorem necessitatibus repellendus,
             facere deserunt neque ut in eum voluptate.
           </p>
+          <a
+            href="https://kvadratatelje.ba/pdfs/Adnan_Omerovic_CV.pdf"
+            target="_blank"
+            className="p__opensans"
+          >
+            Portfolio <FiExternalLink color="white" fontSize={16} />
+          </a>
         </div>
       </div>
     </div>
