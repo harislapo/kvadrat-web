@@ -36,7 +36,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div className="app__navbar-language">
+      <div className="app__navbar-language disable_dblclick">
         <a href={flag === 'ba' ? '#ba' : '#en'} onClick={toggleFlags}>
           <img src={flag === 'ba' ? images.ba_flag : images.en_flag} />
         </a>
