@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
-
 import { images } from '../../constants';
 import './Navbar.css';
 
@@ -9,7 +8,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [flag, setFlag] = useState('ba');
 
-  const toggleFlags = () => {
+  const handleLanguageChange = () => {
     if (flag === 'ba') {
       setFlag('en');
     } else {
@@ -37,7 +36,10 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-language disable_dblclick">
-        <a href={flag === 'ba' ? '#ba' : '#en'} onClick={toggleFlags}>
+        <a
+          href={flag === 'ba' ? '#ba' : '#en'}
+          onClick={() => handleLanguageChange(flag === 'ba' ? 'en' : 'ba')}
+        >
           <img src={flag === 'ba' ? images.ba_flag : images.en_flag} />
         </a>
       </div>

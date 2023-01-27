@@ -1,0 +1,10 @@
+{
+  "navbar": {
+    "items": {
+      "item1": "About",
+      "item2": "Founder",
+      "item3": "Projects",
+      "item4": "Contact"
+    }
+  }
+}

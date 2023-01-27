@@ -67,7 +67,7 @@ const Gallery = () => {
         </p>
         <span>
           <a
-            href="https://kvadratatelje.ba/pdfs/Kvadrat_Reference.pdf"
+            href="https://kvadratatelje.ba/pdfs/Kvadrat_Portfolio.pdf"
             target="_blank"
             className="p__opensans"
           >

@@ -18,7 +18,7 @@ const Founder = () => {
         <SubHeading title="Kvadrat's founder" />
         <h1 className="headtext__cormorant">Adnan Omerović</h1>
         <div className="app__founder-content">
-          <p className="p__opensans">
+          {/* <p className="p__opensans">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
             doloribus pariatur voluptatem sed officiis! Quod repudiandae
             corrupti laudantium ab soluta dolorem necessitatibus repellendus,
@@ -37,7 +37,7 @@ const Founder = () => {
             Id doloribus pariatur voluptatem sed officiis! Quod repudiandae
             corrupti laudantium ab soluta dolorem necessitatibus repellendus,
             facere deserunt neque ut in eum voluptate.
-          </p>
+          </p> */}
           <a
             href="https://kvadratatelje.ba/pdfs/Adnan_Omerovic_CV.pdf"
             target="_blank"
