@@ -26,6 +26,7 @@ const Intro = () => {
         loop
         controls={false}
         muted
+        autoPlay={false}
       />
       <div className="app__video-overlay flex__center">
         <div
