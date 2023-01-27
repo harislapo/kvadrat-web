@@ -79,8 +79,13 @@ const Navbar = () => {
                   Contact
                 </a>
               </li>
-              <li className="app__navbar-smscreen_links-language">
-                <a href={flag === 'ba' ? '#ba' : '#en'} onClick={toggleFlags}>
+              <li className="app__navbar-smscreen_links-language disable_dblclick">
+                <a
+                  href={flag === 'ba' ? '#ba' : '#en'}
+                  onClick={() =>
+                    handleLanguageChange(flag === 'ba' ? 'en' : 'ba')
+                  }
+                >
                   <img src={flag === 'ba' ? images.ba_flag : images.en_flag} />
                 </a>
               </li>

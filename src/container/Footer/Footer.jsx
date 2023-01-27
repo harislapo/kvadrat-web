@@ -20,7 +20,7 @@ const Footer = () => (
       </div>
       <div className="app__footer-links_logo">
         <img src={images.logo} alt="logo" />
-        <p className="p__opensans">kvadrat.d.o.o@gmail.com</p>
+        <p className="p__opensans">kvadrat.doo@gmail.com</p>
         <div className="app__footer-links_icons">
           <a
             href="https://www.facebook.com/profile.php?id=100019957350229"
@@ -28,7 +28,7 @@ const Footer = () => (
           >
             <FiFacebook />
           </a>
-          <a href="https://instagram.com" target="_blank">
+          <a href="https://www.instagram.com/kvadrat_atelje" target="_blank">
             <FiInstagram />
           </a>
           <a
