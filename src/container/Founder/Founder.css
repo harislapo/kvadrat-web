@@ -10,6 +10,10 @@
   text-align: justify;
 }
 
+#founder img {
+  width: 77%;
+}
+
 @media screen and (max-width: 1150px) {
   .app__wrapper_info {
     margin-top: 2rem;
