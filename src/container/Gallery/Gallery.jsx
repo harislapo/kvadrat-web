@@ -52,6 +52,8 @@ const Gallery = () => {
     images.gallery_0027,
     images.gallery_0028,
     images.gallery_0029,
+    images.gallery_0030,
+    images.gallery_0031,
   ];
 
   return (

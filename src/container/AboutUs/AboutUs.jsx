@@ -1,5 +1,5 @@
 import React from 'react';
-import images from '../../constants/images';
+import { images } from '../../constants';
 
 import './AboutUs.css';
 
@@ -19,9 +19,12 @@ const AboutUs = () => (
           research and analysis of practical and theoretical matters into the
           driving forces of design.
         </p>
+        <div className="app__wrapper_img white-border">
+          <img src={images.aboutus_img} alt="About us image" />
+        </div>
       </div>
 
-      <div className="app__aboutus-content_divider"></div>
+      <div className="app__aboutus-content_divider" />
 
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">History</h1>
@@ -35,6 +38,9 @@ const AboutUs = () => (
           has a wide portfolio of work and the attitude of involving external
           experts to improve the design intelligence of its team.
         </p>
+        <div className="app__wrapper_img white-border">
+          <img src={images.history_img} alt="History image" />
+        </div>
       </div>
     </div>
   </div>

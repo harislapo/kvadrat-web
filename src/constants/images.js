@@ -1,5 +1,10 @@
 import logo from '../assets/logo.jpeg';
 import header_img from '../assets/header_img.jpg';
+import ba_flag from '../assets/ba_flag.svg';
+import en_flag from '../assets/en_flag.svg';
+import founder from '../assets/founder.jpg';
+import aboutus_img from '../assets/aboutus_img.jpg';
+import history_img from '../assets/history_img.jpg';
 import gallery_001 from '../assets/gallery/gallery_001.jpg';
 import gallery_002 from '../assets/gallery/gallery_002.jpg';
 import gallery_003 from '../assets/gallery/gallery_003.jpg';
@@ -29,9 +34,8 @@ import gallery_0026 from '../assets/gallery/gallery_0026.jpg';
 import gallery_0027 from '../assets/gallery/gallery_0027.jpg';
 import gallery_0028 from '../assets/gallery/gallery_0028.jpg';
 import gallery_0029 from '../assets/gallery/gallery_0029.jpg';
-import ba_flag from '../assets/ba_flag.svg';
-import en_flag from '../assets/en_flag.svg';
-import founder from '../assets/founder.jpg';
+import gallery_0030 from '../assets/gallery/gallery_0030.jpg';
+import gallery_0031 from '../assets/gallery/gallery_0031.jpg';
 
 export default {
   logo,
@@ -39,6 +43,8 @@ export default {
   ba_flag,
   en_flag,
   founder,
+  aboutus_img,
+  history_img,
   gallery_001,
   gallery_002,
   gallery_003,
@@ -68,4 +74,6 @@ export default {
   gallery_0027,
   gallery_0028,
   gallery_0029,
+  gallery_0030,
+  gallery_0031,
 };

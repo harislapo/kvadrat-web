@@ -11,7 +11,7 @@ const Founder = () => {
         <img
           src={images.founder}
           alt="Founder's image"
-          className="white-border white-border-none"
+          className="white-border"
         />
       </div>
       <div className="app__wrapper_info">

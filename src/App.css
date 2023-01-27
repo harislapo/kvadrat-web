@@ -118,8 +118,13 @@
     width: 100%;
   }
 
-  .white-border-none {
-    border: none;
+  #founder img {
+    width: 50%;
+  }
+
+  .app__wrapper_img-reverse {
+    justify-content: center;
+    margin-right: 0;
   }
 }
 
@@ -127,11 +132,19 @@
   .section__padding {
     padding: 4rem;
   }
+
+  #founder img {
+    width: 65%;
+  }
 }
 
 @media screen and (max-width: 650px) {
   .section__padding {
     padding: 4rem 2rem;
+  }
+
+  #founder img {
+    width: 73%;
   }
 
   .p__cormorant {
@@ -144,6 +157,10 @@
 }
 
 @media screen and (max-width: 450px) {
+  #founder img {
+    width: 100%;
+  }
+
   .p__opensans {
     font-size: 13px;
   }
@@ -153,7 +170,7 @@
   }
 
   .headtext__cormorant {
-    font-size: 45px;
+    font-size: 44px;
     line-height: 70px;
   }
 }

@@ -16,10 +16,9 @@
 }
 
 .app__aboutus-content_divider {
-  min-height: 80vh;
+  height: 100vmin;
   width: 0.5rem;
   margin: 2rem;
-  background-color: var(--color-white);
 }
 
 .app__aboutus-content_history {
@@ -51,5 +50,9 @@
 
   .app__aboutus-content_divider {
     display: none;
+  }
+
+  .app__aboutus-content_history {
+    margin-top: 1rem;
   }
 }
