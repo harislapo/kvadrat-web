@@ -1,9 +1,12 @@
 import React from 'react';
 import { SubHeading } from '../../components';
 import images from '../../constants/images';
+import { useTranslation } from 'react-i18next';
 import './Header.css';
 
 const Header = () => {
+  const { t } = useTranslation();
+
   return (
     <div
       id="header"
@@ -11,11 +14,10 @@ const Header = () => {
       style={{ minHeight: '85vh' }}
     >
       <div className="app__wrapper_info">
-        <SubHeading title="Where architecture comes to life." />
-        <h1 className="app__header-h1">Kvadrat Atelier</h1>
+        <SubHeading title={t('header.subheading')} />
+        <h1 className="app__header-h1">{t('header.heading')}</h1>
         <p className="p__opensans" style={{ margin: '2rem 0' }}>
-          Architectural studio &#8212; based in Sarajevo, Bosnia and
-          Herzegovina.
+          {t('header.paragraph')}
         </p>
       </div>
       <div className="app__wrapper_img">
