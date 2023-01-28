@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
 import { images } from '../../constants';
@@ -8,7 +9,11 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [flag, setFlag] = useState('ba');
 
-  const handleLanguageChange = () => {
+  const { i18n, t } = useTranslation();
+
+  const handleLanguageChange = (language) => {
+    i18n.changeLanguage(language);
+
     if (flag === 'ba') {
       setFlag('en');
     } else {
@@ -23,16 +28,16 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
-          <a href="#about">About</a>
+          <a href="#about">{t('navbar.items.item1')}</a>
         </li>
         <li className="p__opensans">
-          <a href="#founder">Founder</a>
+          <a href="#founder">{t('navbar.items.item2')}</a>
         </li>
         <li className="p__opensans">
-          <a href="#projects">Projects</a>
+          <a href="#projects">{t('navbar.items.item3')}</a>
         </li>
         <li className="p__opensans">
-          <a href="#contact">Contact</a>
+          <a href="#contact">{t('navbar.items.item4')}</a>
         </li>
       </ul>
       <div className="app__navbar-language disable_dblclick">
@@ -61,22 +66,22 @@ const Navbar = () => {
             <ul className="app__navbar-smscreen_links">
               <li className="p__opensans">
                 <a href="#about" onClick={() => setToggleMenu(false)}>
-                  About
+                  {t('navbar.items.item1')}
                 </a>
               </li>
               <li className="p__opensans">
                 <a href="#founder" onClick={() => setToggleMenu(false)}>
-                  Founder
+                  {t('navbar.items.item2')}
                 </a>
               </li>
               <li className="p__opensans">
                 <a href="#projects" onClick={() => setToggleMenu(false)}>
-                  Projects
+                  {t('navbar.items.item3')}
                 </a>
               </li>
               <li className="p__opensans">
                 <a href="#contact" onClick={() => setToggleMenu(false)}>
-                  Contact
+                  {t('navbar.items.item4')}
                 </a>
               </li>
               <li className="app__navbar-smscreen_links-language disable_dblclick">

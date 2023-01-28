@@ -6,5 +6,43 @@
       "item3": "Projekti",
       "item4": "Kontakt"
     }
+  },
+  "header": {
+    "subheading": "Mjesto gdje arhitektura oživljava.",
+    "heading": "KVADRAT ATELJE",
+    "paragraph": "Arhitektonski studio — lociran u Sarajevu, Bosna i Hercegovina."
+  },
+  "about_us": {
+    "heading": "O nama",
+    "paragraph": "KVADRAT je multidisciplinaran studio koji se fokusira na arhitekturu i dizajn, od planiranja velikih razmjera do unutrašnjeg dizajna. Obogaćen sa višestrukim stručnostima, naš studio pokreću talentovani dizajneri i iskusne arhitekte koji udruženo razvijaju projekte od ranih skica do nadgledanja na izvedbenom mjestu. Srž naše arhitekture je sposobnost da analiziramo problematiku dizajna stečenu dugogodišnjim iskustvom. Naš pristup je da pretvaramo opsežno istraživanje i analiziranje praktičnih i teoretskih stvari u pogonsku silu dizajna."
+  },
+  "history": {
+    "heading": "Povijest",
+    "paragraph": "Osnovan i vođen od strane Adnana Omerovića, KVADRAT ima raznovrsan i sposoban tim sa sjedištem u Sarajevu, Bosna i Hercegovina, od 2003. - do danas. Radimo sa korporativnim, vladinim i privatnim klijentima u brojnim zemljama kako bi izgradili civilne, stambene, urede i trgovinske razvojne projekte. KVADRAT predviđa sebe kao proaktivnog partnera za klijenta, prije nego konsultanta. Studio ima opsežan portfolio izvedbenih projekata, te ima blagonaklonost prema uključivanju spoljnih eksperata kako bi poboljšao dizajnersku inteligenciju svog tima."
+  },
+  "founder": {
+    "subheading": "Osnivač Kvadrata"
+  },
+  "gallery": {
+    "subheading": "Galerija",
+    "heading": "Projekti",
+    "paragraph": "Uvijek radimo na nečemu novom. Pogledajte neke od naših najnovijih projekata."
+  },
+  "footer": {
+    "contact": {
+      "heading": "Kontakt",
+      "paragraph": {
+        "item1": "Stupska 19/A1",
+        "item2": "Sarajevo, Bosna i Hercegovina"
+      }
+    },
+    "hours": {
+      "heading": "Radni dani",
+      "paragraph": {
+        "item1": "Ponedjeljak - Petak",
+        "item2": "8:00 - 16:00"
+      }
+    },
+    "footer_signature": "Kvadrat Atelje"
   }
 }

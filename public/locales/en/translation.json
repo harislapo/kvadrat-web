@@ -6,5 +6,43 @@
       "item3": "Projects",
       "item4": "Contact"
     }
+  },
+  "header": {
+    "subheading": "Where architecture comes to life.",
+    "heading": "KVADRAT ATELIER",
+    "paragraph": "Architectural studio — based in Sarajevo, Bosnia and Herzegovina."
+  },
+  "about_us": {
+    "heading": "About Us",
+    "paragraph": "KVADRAT is a multidisciplinary office that focuses on architecture and design, from large scale planning to interior design. Rich with multiple expertises, our office is fuelled by talented designers and experienced architects that jointly develop projects from early sketches to on-site supervision. At the core of our architecture is the ability to take a fresh look at design issues through experienced eyes. Our approach aims at turning intense research and analysis of practical and theoretical matters into the driving forces of design."
+  },
+  "history": {
+    "heading": "History",
+    "paragraph": "Founded and directed by Adnan Omerović, KVADRAT has a diverse and strong team based in Sarajevo, Bosnia and Herzegovina from 2003. - nowadays. We work with corporate, government and private clients in numerous countries to realize civic, residential, office, commercial development projects. KVADRAT envisions itself as a proactive partner for its client, rather than a consultant. The office has a wide portfolio of work and the attitude of involving external experts to improve the design intelligence of its team."
+  },
+  "founder": {
+    "subheading": "Kvadrat's founder"
+  },
+  "gallery": {
+    "subheading": "Gallery",
+    "heading": "Projects",
+    "paragraph": "We are always working on something new. Have a look into some of our most recent projects."
+  },
+  "footer": {
+    "contact": {
+      "heading": "Contact us",
+      "paragraph": {
+        "item1": "Stupska St. 19/A1",
+        "item2": "Sarajevo, Bosnia and Herzegovina"
+      }
+    },
+    "hours": {
+      "heading": "Hours",
+      "paragraph": {
+        "item1": "Monday - Friday",
+        "item2": "8AM - 4PM"
+      }
+    },
+    "footer_signature": "Kvadrat Atelier"
   }
 }
