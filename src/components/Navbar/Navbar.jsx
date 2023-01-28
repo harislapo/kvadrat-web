@@ -7,7 +7,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-  const [flag, setFlag] = useState('ba');
+  const [flag, setFlag] = useState('en');
 
   const { i18n, t } = useTranslation();
 
@@ -42,10 +42,10 @@ const Navbar = () => {
       </ul>
       <div className="app__navbar-language disable_dblclick">
         <a
-          href={flag === 'ba' ? '#ba' : '#en'}
+          href={flag === 'ba' ? '#en' : '#ba'}
           onClick={() => handleLanguageChange(flag === 'ba' ? 'en' : 'ba')}
         >
-          <img src={flag === 'ba' ? images.ba_flag : images.en_flag} />
+          <img src={flag === 'ba' ? images.en_flag : images.ba_flag} />
         </a>
       </div>
       <div className="app__navbar-smscreen">
@@ -86,12 +86,12 @@ const Navbar = () => {
               </li>
               <li className="app__navbar-smscreen_links-language disable_dblclick">
                 <a
-                  href={flag === 'ba' ? '#ba' : '#en'}
+                  href={flag === 'ba' ? '#en' : '#ba'}
                   onClick={() =>
                     handleLanguageChange(flag === 'ba' ? 'en' : 'ba')
                   }
                 >
-                  <img src={flag === 'ba' ? images.ba_flag : images.en_flag} />
+                  <img src={flag === 'ba' ? images.en_flag : images.ba_flag} />
                 </a>
               </li>
             </ul>
