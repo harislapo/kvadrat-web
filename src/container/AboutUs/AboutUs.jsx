@@ -7,22 +7,31 @@ const AboutUs = () => {
   const { t } = useTranslation();
   return (
     <div id="about" className="app__aboutus flex__center section__padding">
-      <div className="app__aboutus-content flex__center">
+      <div
+        className="app__aboutus-content flex__center"
+        style={{ alignItems: 'stretch' }}
+      >
         <div className="app__aboutus-content_about">
           <h1 className="headtext__cormorant">{t('about_us.heading')}</h1>
           <p className="p__opensans">{t('about_us.paragraph')}</p>
-          <div className="app__wrapper_img white-border">
-            <img src={images.aboutus_img} alt="About us image" />
+          <div className="app__wrapper_img">
+            <img
+              src={images.aboutus_img}
+              alt="About us image"
+              className="white-border"
+            />
           </div>
         </div>
         <div className="app__aboutus-content_divider" />
         <div className="app__aboutus-content_history">
           <h1 className="headtext__cormorant">{t('history.heading')}</h1>
-          <p className="p__opensans">
-          {t('history.paragraph')}
-          </p>
-          <div className="app__wrapper_img white-border">
-            <img src={images.history_img} alt="History image" />
+          <p className="p__opensans">{t('history.paragraph')}</p>
+          <div className="app__wrapper_img img_relative">
+            <img
+              src={images.history_img}
+              alt="History image"
+              className="white-border img_absolute"
+            />
           </div>
         </div>
       </div>

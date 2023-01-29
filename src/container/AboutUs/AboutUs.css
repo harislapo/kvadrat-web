@@ -1,3 +1,12 @@
+.img_relative {
+  position: relative;
+}
+
+.img_absolute {
+  position: absolute;
+  bottom: 0;
+}
+
 .app__aboutus {
   background-color: var(--color-black);
 }
@@ -16,9 +25,8 @@
 }
 
 .app__aboutus-content_divider {
-  height: 100vmin;
   width: 0.5rem;
-  margin: 2rem;
+  margin: 1.2rem;
 }
 
 .app__aboutus-content_history {
@@ -36,7 +44,7 @@
   color: var(--color-grey);
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (min-width: 2000px) {
   .app__aboutus-content_about p,
   .app__aboutus-content_history p {
     margin: 4rem 0;
@@ -54,5 +62,9 @@
 
   .app__aboutus-content_history {
     margin-top: 1rem;
+  }
+
+  .img_absolute {
+    position: static;
   }
 }

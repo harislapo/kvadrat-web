@@ -114,8 +114,21 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 390px) {
   .app__footer-links_logo img {
-    width: 70%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .text-sm {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .mail_sm-text {
+    letter-spacing: 0 !important;
+    word-break: break-all;
   }
 }

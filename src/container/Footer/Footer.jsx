@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
         <div className="app__footer-links_logo">
           <img src={images.logo} alt="logo" />
-          <p className="p__opensans">kvadrat.doo@gmail.com</p>
+          <p className="p__opensans mail_sm-text">kvadrat.doo@gmail.com</p>
           <div className="app__footer-links_icons">
             <a
               href="https://www.facebook.com/profile.php?id=100019957350229"
@@ -55,7 +55,7 @@ const Footer = () => {
       </div>
       <div className="footer__copyright">
         <p className="p__opensans text-sm">
-          &copy; Kvadrat Atelje &trade; 2023{' '}
+          &copy; Kvadrat Atelje &trade; 2023
         </p>
       </div>
     </div>
