@@ -26,7 +26,10 @@ const AboutUs = () => {
         <div className="app__aboutus-content_history">
           <h1 className="headtext__cormorant">{t('history.heading')}</h1>
           <p className="p__opensans">{t('history.paragraph')}</p>
-          <div className="app__wrapper_img img_relative">
+          <div
+            className="app__wrapper_img img_relative"
+            style={{ marginLeft: '0' }}
+          >
             <img
               src={images.history_img}
               alt="History image"

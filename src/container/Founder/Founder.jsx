@@ -25,7 +25,7 @@ const Founder = () => {
             href="https://kvadratatelje.ba/pdfs/Adnan_Omerovic_CV.pdf"
             target="_blank"
             className="p__opensans"
-            style={{ color: 'gold' }}
+            id='golden-color'
           >
             Portfolio <FiExternalLink color="white" fontSize={16} />
           </a>

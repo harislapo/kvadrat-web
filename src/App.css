@@ -88,6 +88,10 @@
   -ms-user-select: none;
 }
 
+#golden-color {
+  color: var(--color-golden);
+}
+
 @media screen and (min-width: 2000px) {
   .p__cormorant {
     font-size: 37px;

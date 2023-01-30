@@ -51,9 +51,9 @@ const Gallery = () => {
     const { current } = scrollRef;
 
     if (direction === 'left') {
-      current.scrollLeft -= 300;
+      current.scrollLeft -= 360;
     } else {
-      current.scrollLeft += 300;
+      current.scrollLeft += 360;
     }
   };
 
@@ -70,7 +70,7 @@ const Gallery = () => {
             href="https://kvadratatelje.ba/pdfs/Kvadrat_Portfolio.pdf"
             target="_blank"
             className="p__opensans"
-            style={{ color: 'gold' }}
+            id='golden-color'
           >
             Portfolio <FiExternalLink color="white" fontSize={16} />
           </a>
