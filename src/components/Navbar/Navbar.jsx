@@ -42,7 +42,7 @@ const Navbar = () => {
       </ul>
       <div className="app__navbar-language disable_dblclick">
         <a
-          href="javascript:;"
+          href="#"
           onClick={() => handleLanguageChange(flag === 'ba' ? 'en' : 'ba')}
         >
           <img src={flag === 'ba' ? images.en_flag : images.ba_flag} />
@@ -86,7 +86,7 @@ const Navbar = () => {
               </li>
               <li className="app__navbar-smscreen_links-language disable_dblclick">
                 <a
-                  href="javascript:;"
+                  href="#"
                   onClick={() =>
                     handleLanguageChange(flag === 'ba' ? 'en' : 'ba')
                   }

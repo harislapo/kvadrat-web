@@ -1,5 +1,12 @@
 import React, { useEffect } from 'react';
-import { AboutUs, Footer, Founder, Gallery, Header, Intro } from './container';
+import {
+  AboutUs,
+  Footer,
+  Founder,
+  Gallery,
+  Header,
+  VideoGallery,
+} from './container';
 import { Navbar } from './components';
 import { useTranslation } from 'react-i18next';
 import './App.css';
@@ -16,7 +23,7 @@ const App = () => {
       <Navbar />
       <Header />
       <AboutUs />
-      <Intro />
+      <VideoGallery />
       <Founder />
       <Gallery />
       <Footer />
