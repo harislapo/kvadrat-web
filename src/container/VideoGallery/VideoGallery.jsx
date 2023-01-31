@@ -4,8 +4,6 @@ import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import { videos, posters } from '../../constants';
 import './VideoGallery.css';
 
-// vidRef.current?.load();
-
 const videoGallery = [
   { url: videos.intro_video, poster: posters.intro_video },
   { url: videos.intro_video2, poster: posters.intro_video2 },
