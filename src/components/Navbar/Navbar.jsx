@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar" id="navbar">
       <div className="app__navbar-logo">
-        <img src={images.logo} alt="App logo" />
+        <img src={images.logo} alt="Kvadrat Atelier Navbar Logo" />
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
@@ -45,7 +45,10 @@ const Navbar = () => {
           href="#"
           onClick={() => handleLanguageChange(flag === 'ba' ? 'en' : 'ba')}
         >
-          <img src={flag === 'ba' ? images.en_flag : images.ba_flag} />
+          <img
+            src={flag === 'ba' ? images.en_flag : images.ba_flag}
+            alt="Navbar Flag"
+          />
         </a>
       </div>
       <div className="app__navbar-smscreen">
@@ -91,7 +94,10 @@ const Navbar = () => {
                     handleLanguageChange(flag === 'ba' ? 'en' : 'ba')
                   }
                 >
-                  <img src={flag === 'ba' ? images.en_flag : images.ba_flag} />
+                  <img
+                    src={flag === 'ba' ? images.en_flag : images.ba_flag}
+                    alt="Navbar Flag"
+                  />
                 </a>
               </li>
             </ul>

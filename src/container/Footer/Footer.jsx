@@ -25,7 +25,7 @@ const Footer = () => {
           <p className="p__opensans">+387 33 841 641</p>
         </div>
         <div className="app__footer-links_logo">
-          <img src={images.logo} alt="logo" />
+          <img src={images.logo} alt="Kvadrat Atelier Logo" />
           <p className="p__opensans mail_sm-text">kvadrat.doo@gmail.com</p>
           <div className="app__footer-links_icons">
             <a

@@ -17,7 +17,7 @@ const AboutUs = () => {
           <div className="app__wrapper_img">
             <img
               src={images.aboutus_img}
-              alt="About us image"
+              alt="Kvadrat Atelier About Us Image"
               className="white-border"
             />
           </div>
@@ -32,7 +32,7 @@ const AboutUs = () => {
           >
             <img
               src={images.history_img}
-              alt="History image"
+              alt="Kvadrat Atelier History Image"
               className="white-border img_absolute"
             />
           </div>

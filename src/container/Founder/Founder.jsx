@@ -13,7 +13,7 @@ const Founder = () => {
       <div className="app__wrapper_img app__wrapper_img-reverse">
         <img
           src={images.founder}
-          alt="Founder's image"
+          alt="Kvadrat Atelier Founder's Image"
           className="white-border"
         />
       </div>
