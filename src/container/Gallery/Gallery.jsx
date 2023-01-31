@@ -61,7 +61,7 @@ const Gallery = () => {
     <div className="app__gallery flex__center disable_dblclick" id="projects">
       <div className="app__gallery-content">
         <SubHeading title={t('gallery.subheading')} />
-        <h1 className="headtext__cormorant">{t('gallery.heading')}</h1>
+        <h2 className="headtext__cormorant">{t('gallery.heading')}</h2>
         <p className="p__opensans" style={{ color: '#AAA', marginTop: '2rem' }}>
           {t('gallery.paragraph')}
         </p>

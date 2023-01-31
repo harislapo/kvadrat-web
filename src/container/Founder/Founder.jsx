@@ -19,7 +19,7 @@ const Founder = () => {
       </div>
       <div className="app__wrapper_info">
         <SubHeading title={t('founder.subheading')} />
-        <h1 className="headtext__cormorant">Adnan Omerović</h1>
+        <h2 className="headtext__cormorant">Adnan Omerović</h2>
         <div className="app__founder-content">
           <a
             href="https://kvadratatelje.ba/pdfs/Adnan_Omerovic_CV.pdf"
