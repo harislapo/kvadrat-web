@@ -17,15 +17,15 @@ const Footer = () => {
       </div>
       <div className="app__footer-links">
         <div className="app__footer-links_contact">
-          <h1 className="app__footer-headtext">
+          <h2 className="app__footer-headtext">
             {t('footer.contact.heading')}
-          </h1>
+          </h2>
           <p className="p__opensans">{t('footer.contact.paragraph.item1')}</p>
           <p className="p__opensans">{t('footer.contact.paragraph.item2')}</p>
           <p className="p__opensans">+387 33 841 641</p>
         </div>
         <div className="app__footer-links_logo">
-          <img src={images.logo} alt="logo" />
+          <img src={images.logo} alt="Kvadrat Atelier Logo" />
           <p className="p__opensans mail_sm-text">kvadrat.doo@gmail.com</p>
           <div className="app__footer-links_icons">
             <a
@@ -46,9 +46,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="app__footer-links_hours">
-          <h1 className="app__footer-headtext flex__center">
+          <h2 className="app__footer-headtext flex__center">
             {t('footer.hours.heading')}
-          </h1>
+          </h2>
           <p className="p__opensans">{t('footer.hours.paragraph.item1')}</p>
           <p className="p__opensans">{t('footer.hours.paragraph.item2')}</p>
         </div>

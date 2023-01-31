@@ -12,19 +12,19 @@ const AboutUs = () => {
         style={{ alignItems: 'stretch' }}
       >
         <div className="app__aboutus-content_about">
-          <h1 className="headtext__cormorant">{t('about_us.heading')}</h1>
+          <h2 className="headtext__cormorant">{t('about_us.heading')}</h2>
           <p className="p__opensans">{t('about_us.paragraph')}</p>
           <div className="app__wrapper_img">
             <img
               src={images.aboutus_img}
-              alt="About us image"
+              alt="Kvadrat Atelier About Us Image"
               className="white-border"
             />
           </div>
         </div>
         <div className="app__aboutus-content_divider" />
         <div className="app__aboutus-content_history">
-          <h1 className="headtext__cormorant">{t('history.heading')}</h1>
+          <h2 className="headtext__cormorant">{t('history.heading')}</h2>
           <p className="p__opensans">{t('history.paragraph')}</p>
           <div
             className="app__wrapper_img img_relative"
@@ -32,7 +32,7 @@ const AboutUs = () => {
           >
             <img
               src={images.history_img}
-              alt="History image"
+              alt="Kvadrat Atelier History Image"
               className="white-border img_absolute"
             />
           </div>

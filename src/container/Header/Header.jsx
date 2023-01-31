@@ -23,7 +23,7 @@ const Header = () => {
       <div className="app__wrapper_img">
         <img
           src={images.header_img}
-          alt="header image"
+          alt="Kvadrat Atelier Header Image"
           className="white-border"
         />
       </div>

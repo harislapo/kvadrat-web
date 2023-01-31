@@ -61,7 +61,7 @@ const Gallery = () => {
     <div className="app__gallery flex__center disable_dblclick" id="projects">
       <div className="app__gallery-content">
         <SubHeading title={t('gallery.subheading')} />
-        <h1 className="headtext__cormorant">{t('gallery.heading')}</h1>
+        <h2 className="headtext__cormorant">{t('gallery.heading')}</h2>
         <p className="p__opensans" style={{ color: '#AAA', marginTop: '2rem' }}>
           {t('gallery.paragraph')}
         </p>
@@ -70,7 +70,7 @@ const Gallery = () => {
             href="https://kvadratatelje.ba/pdfs/Kvadrat_Portfolio.pdf"
             target="_blank"
             className="p__opensans"
-            id='golden-color'
+            id="golden-color"
           >
             Portfolio <FiExternalLink color="white" fontSize={16} />
           </a>
@@ -84,7 +84,7 @@ const Gallery = () => {
                 className="app__gallery-images_card flex__center"
                 key={`gallery_image-${index + 1}`}
               >
-                <img src={image} alt="Gallery image" />
+                <img src={image} alt={`Gallery image ${index + 1} `} />
                 <BsInstagram className="gallery__image-icon" />
               </div>
             );

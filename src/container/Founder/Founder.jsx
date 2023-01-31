@@ -13,13 +13,13 @@ const Founder = () => {
       <div className="app__wrapper_img app__wrapper_img-reverse">
         <img
           src={images.founder}
-          alt="Founder's image"
+          alt="Kvadrat Atelier Founder's Image"
           className="white-border"
         />
       </div>
       <div className="app__wrapper_info">
         <SubHeading title={t('founder.subheading')} />
-        <h1 className="headtext__cormorant">Adnan Omerović</h1>
+        <h2 className="headtext__cormorant">Adnan Omerović</h2>
         <div className="app__founder-content">
           <a
             href="https://kvadratatelje.ba/pdfs/Adnan_Omerovic_CV.pdf"
