@@ -1,15 +1,15 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
-import { intro_video, intro_video2, intro_video3 } from '../../constants';
+import { videos, posters } from '../../constants';
 import './VideoGallery.css';
 
 // vidRef.current?.load();
 
-const videos = [
-  { url: intro_video },
-  { url: intro_video2 },
-  { url: intro_video3 },
+const videoGallery = [
+  { url: videos.intro_video, poster: posters.intro_video },
+  { url: videos.intro_video2, poster: posters.intro_video2 },
+  { url: videos.intro_video3, poster: posters.intro_video3 },
 ];
 
 const Intro = () => {
@@ -30,11 +30,13 @@ const Intro = () => {
     const isFirstSlide = currentVideoIndex === 0;
 
     // If we are on the first slide, the next video will be the last video in the array
-    const newIndex = isFirstSlide ? videos.length - 1 : currentVideoIndex - 1;
+    const newIndex = isFirstSlide
+      ? videoGallery.length - 1
+      : currentVideoIndex - 1;
     setCurrentVideoIndex(newIndex);
   };
   const handleNextSlide = () => {
-    const isLastSlide = currentVideoIndex === videos.length - 1;
+    const isLastSlide = currentVideoIndex === videoGallery.length - 1;
     // If we are on the last slide, the next video will be the first video in the array
     const newIndex = isLastSlide ? 0 : currentVideoIndex + 1;
     setCurrentVideoIndex(newIndex);
@@ -54,8 +56,9 @@ const Intro = () => {
         controls={false}
         muted
         autoPlay={false}
+        poster={videoGallery[currentVideoIndex].poster}
       >
-        <source src={videos[currentVideoIndex].url} />
+        <source src={videoGallery[currentVideoIndex].url} />
       </video>
       <div className="app__video-overlay flex__center">
         <div
