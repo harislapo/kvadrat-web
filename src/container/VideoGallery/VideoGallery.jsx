@@ -46,7 +46,7 @@ const Intro = () => {
   }, [currentVideoIndex]);
 
   return (
-    <div className="app__video">
+    <div className="app__video disable_dblclick">
       <video
         ref={vidRef}
         type="video/mp4"
