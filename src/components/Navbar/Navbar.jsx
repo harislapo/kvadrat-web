@@ -40,9 +40,12 @@ const Navbar = () => {
           <a href="#contact">{t('navbar.items.item4')}</a>
         </li>
       </ul>
-      <div className="app__navbar-language disable_dblclick">
+      <div
+        className="app__navbar-language disable_dblclick"
+        onClick={(e) => e.preventDefault()}
+      >
         <a
-          href="#"
+          href={flag === 'en' ? '#ba' : '#en'}
           onClick={() => handleLanguageChange(flag === 'ba' ? 'en' : 'ba')}
         >
           <img
@@ -87,9 +90,12 @@ const Navbar = () => {
                   {t('navbar.items.item4')}
                 </a>
               </li>
-              <li className="app__navbar-smscreen_links-language disable_dblclick">
+              <li
+                className="app__navbar-smscreen_links-language disable_dblclick"
+                onClick={(e) => e.preventDefault()}
+              >
                 <a
-                  href="#"
+                  href={flag === 'en' ? '#ba' : '#en'}
                   onClick={() =>
                     handleLanguageChange(flag === 'ba' ? 'en' : 'ba')
                   }
