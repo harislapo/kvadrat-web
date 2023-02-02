@@ -9,38 +9,40 @@ import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './Gallery.css';
 import { useTranslation } from 'react-i18next';
+
+const igURL = 'https://www.instagram.com/p/';
 const galleryImages = [
-  images.gallery_001,
-  images.gallery_002,
-  images.gallery_003,
-  images.gallery_004,
-  images.gallery_005,
-  images.gallery_006,
-  images.gallery_007,
-  images.gallery_008,
-  images.gallery_009,
-  images.gallery_0010,
-  images.gallery_0011,
-  images.gallery_0012,
-  images.gallery_0013,
-  images.gallery_0014,
-  images.gallery_0015,
-  images.gallery_0016,
-  images.gallery_0017,
-  images.gallery_0018,
-  images.gallery_0019,
-  images.gallery_0020,
-  images.gallery_0021,
-  images.gallery_0022,
-  images.gallery_0023,
-  images.gallery_0024,
-  images.gallery_0025,
-  images.gallery_0026,
-  images.gallery_0027,
-  images.gallery_0028,
-  images.gallery_0029,
-  images.gallery_0030,
-  images.gallery_0031,
+  { url: images.gallery_001, href: '' },
+  { url: images.gallery_002, href: 'CoCfj-MqKI8' },
+  { url: images.gallery_003, href: 'CoCfj-MqKI8' },
+  { url: images.gallery_004, href: '' },
+  { url: images.gallery_005, href: '' },
+  { url: images.gallery_006, href: '' },
+  { url: images.gallery_007, href: '' },
+  { url: images.gallery_008, href: '' },
+  { url: images.gallery_009, href: '' },
+  { url: images.gallery_0010, href: '' },
+  { url: images.gallery_0011, href: '' },
+  { url: images.gallery_0012, href: '' },
+  { url: images.gallery_0013, href: '' },
+  { url: images.gallery_0014, href: '' },
+  { url: images.gallery_0015, href: '' },
+  { url: images.gallery_0016, href: '' },
+  { url: images.gallery_0017, href: '' },
+  { url: images.gallery_0018, href: 'CoHmq4Pt3xj' },
+  { url: images.gallery_0019, href: '' },
+  { url: images.gallery_0020, href: '' },
+  { url: images.gallery_0021, href: '' },
+  { url: images.gallery_0022, href: '' },
+  { url: images.gallery_0023, href: '' },
+  { url: images.gallery_0024, href: '' },
+  { url: images.gallery_0025, href: '' },
+  { url: images.gallery_0026, href: '' },
+  { url: images.gallery_0027, href: '' },
+  { url: images.gallery_0028, href: '' },
+  { url: images.gallery_0029, href: '' },
+  { url: images.gallery_0030, href: '' },
+  { url: images.gallery_0031, href: '' },
 ];
 
 const Gallery = () => {
@@ -84,8 +86,21 @@ const Gallery = () => {
                 className="app__gallery-images_card flex__center"
                 key={`gallery_image-${index + 1}`}
               >
-                <img src={image} alt={`Gallery image ${index + 1} `} />
-                <BsInstagram className="gallery__image-icon" />
+                <img
+                  src={image.url}
+                  alt={`Gallery image ${index + 1} `}
+                  loading="lazy"
+                />
+                <a
+                  // prevent default behavior if there's no url provided yet
+                  onClick={image.href === '' ? (e) => e.preventDefault() : null}
+                  href={image.href ? igURL + image.href : null}
+                  // if url exists, open the instagram link in new tab
+                  target={image.href ? '_blank' : '_self'}
+                  className="gallery__image-icon"
+                >
+                  <BsInstagram />
+                </a>
               </div>
             );
           })}
