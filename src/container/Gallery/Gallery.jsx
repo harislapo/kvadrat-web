@@ -86,7 +86,11 @@ const Gallery = () => {
                 className="app__gallery-images_card flex__center"
                 key={`gallery_image-${index + 1}`}
               >
-                <img src={image.url} alt={`Gallery image ${index + 1} `} />
+                <img
+                  src={image.url}
+                  alt={`Gallery image ${index + 1} `}
+                  loading="lazy"
+                />
                 <a
                   // prevent default behavior if there's no url provided yet
                   onClick={image.href === '' ? (e) => e.preventDefault() : null}

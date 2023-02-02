@@ -15,6 +15,7 @@ const Founder = () => {
           src={images.founder}
           alt="Kvadrat Atelier Founder's Image"
           className="white-border"
+          loading="lazy"
         />
       </div>
       <div className="app__wrapper_info">
@@ -25,7 +26,7 @@ const Founder = () => {
             href="https://kvadratatelje.ba/pdfs/Adnan_Omerovic_CV.pdf"
             target="_blank"
             className="p__opensans"
-            id='golden-color'
+            id="golden-color"
           >
             Portfolio <FiExternalLink color="white" fontSize={16} />
           </a>
