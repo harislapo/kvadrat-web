@@ -15,10 +15,10 @@ const galleryImages = [
   { url: images.gallery_001, href: '' },
   { url: images.gallery_002, href: 'CoCfj-MqKI8' },
   { url: images.gallery_003, href: 'CoCfj-MqKI8' },
-  { url: images.gallery_004, href: '' },
-  { url: images.gallery_005, href: '' },
-  { url: images.gallery_006, href: '' },
-  { url: images.gallery_007, href: '' },
+  { url: images.gallery_004, href: 'CoZjrmfNU1A' },
+  { url: images.gallery_005, href: 'CoZjrmfNU1A' },
+  { url: images.gallery_006, href: 'CoZjrmfNU1A' },
+  { url: images.gallery_007, href: 'CoZjrmfNU1A' },
   { url: images.gallery_008, href: '' },
   { url: images.gallery_009, href: '' },
   { url: images.gallery_0010, href: '' },
@@ -38,11 +38,13 @@ const galleryImages = [
   { url: images.gallery_0024, href: '' },
   { url: images.gallery_0025, href: '' },
   { url: images.gallery_0026, href: '' },
-  { url: images.gallery_0027, href: '' },
+  { url: images.gallery_0027, href: 'CocSyaFNmj3' },
   { url: images.gallery_0028, href: '' },
   { url: images.gallery_0029, href: '' },
-  { url: images.gallery_0030, href: '' },
+  { url: images.gallery_0030, href: 'CoXMdLvNvyK' },
   { url: images.gallery_0031, href: '' },
+  { url: images.gallery_0032, href: 'CoXJ4idtbDK' },
+  { url: images.gallery_0033, href: 'CoZi3UEt2Mg' },
 ];
 
 const Gallery = () => {
@@ -99,7 +101,7 @@ const Gallery = () => {
                   target={image.href ? '_blank' : '_self'}
                   className="gallery__image-icon"
                 >
-                  <BsInstagram />
+                  {image.href ? <BsInstagram /> : null}
                 </a>
               </div>
             );

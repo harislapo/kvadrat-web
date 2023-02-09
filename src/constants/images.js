@@ -36,6 +36,8 @@ import gallery_0028 from '../assets/gallery/gallery_0028.jpg';
 import gallery_0029 from '../assets/gallery/gallery_0029.jpg';
 import gallery_0030 from '../assets/gallery/gallery_0030.jpg';
 import gallery_0031 from '../assets/gallery/gallery_0031.jpg';
+import gallery_0032 from '../assets/gallery/gallery_0032.jpg';
+import gallery_0033 from '../assets/gallery/gallery_0033.jpg';
 
 export default {
   logo,
@@ -76,4 +78,6 @@ export default {
   gallery_0029,
   gallery_0030,
   gallery_0031,
+  gallery_0032,
+  gallery_0033,
 };
